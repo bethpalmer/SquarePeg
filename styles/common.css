@@ -1,0 +1,300 @@
+.tiny         { font-size: 8px; font-family: Verdana, Arial, Helvetica }
+.nine 		  { font-size: 9px; font-family: Verdana, Arial, Helvetica }
+.small        { font-size: 10px; font-family: Verdana, Arial, Helvetica }
+.normal        { font-size: 12px; line-height: 20px; font-family: Verdana, Arial, Helvetica }
+.medium         { font-size: 11px; line-height: 20px; font-family: Verdana, Arial, Helvetica }
+.pagetitle     { font-size: 14px; line-height: 20px; font-family: Verdana, Arial, Helvetica }
+.tighter      { letter-spacing: -1px }
+
+a:link          { color: #690; text-decoration: none }
+a:visited       { color: #690; text-decoration: none }
+a:active       { color: #690; text-decoration: underline }
+a:hover        { color: #690; text-decoration: underline }
+a.grey:link  { color: #696969; text-decoration: none }
+a.grey:visited    { color: #696969; text-decoration: none }
+a.grey:hover  { color: #696969; text-decoration: underline }
+a.grey:active   { color: #666; text-decoration: underline }
+a.red:link   { color: #f00; text-decoration: none }
+a.red:visited     { color: #f00; text-decoration: none }
+a.red:hover   { color: #f00; text-decoration: underline }
+a.red:active    { color: #f00; text-decoration: underline }
+
+/* cvw added 
+------------------------------------------------------------------- */
+
+
+/* Others
+------------------------------------------------------------------- */
+
+
+
+.new {
+	color: #F00;
+	font-weight: bold;
+}
+
+/* Images
+--------------------------------------------------------------------*/
+
+.photo, .photo2 {
+	margin: 10px;
+	background:#fff;
+	float: right;
+	border: 3px solid #E0E0E0;
+}
+
+.photo2 {
+	float:none;
+	margin-left: 35px;}
+	
+.photo3 {
+	margin: 10px 4px;
+	background:#fff;
+	border: 3px solid #E0E0E0;
+}
+
+.fleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.fright {
+	float: right;
+	margin-bottom: 15px;
+	margin-right: 5px;
+	margin-left: 15px
+}
+
+/* Links
+------------------------------------------------------------------*/
+
+a img {
+	border-style: none;
+}
+
+a.pdf {
+	background: url(../images/common/pdf.gif) no-repeat left bottom;
+	padding-top: 3px;
+	padding-left: 19px;
+	}
+
+.small a, .small a:visited, .small a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+/* Side menu replacing images, + other links 
+------------------------------------------------------------------------*/
+
+.side-nav2 {
+	font-variant: small-caps;
+	margin-left: 0;
+	list-style: none;
+	font-size: 10px;
+	padding: 0;
+	margin-right: 0;
+	letter-spacing: 1px;
+}
+
+.side-nav2 li {
+	margin-bottom: 3px;
+}
+
+.side-nav2 li a:link, .side-nav2 li a:visited, .side-nav2 li a:hover, .side-nav2 li a:active, .breadcrumb a:link, .breadcrumb a:visited, .breadcrumb a:hover, .breadcrumb a:active, a.blue:link, a.blue:visited, a.blue:active {
+	color: #0444AF;
+	text-decoration: none;}
+	
+.breadcrumb a:hover, a.blue:hover{
+	text-decoration: underline;
+	}
+
+a.blue {font-size:13px;}
+	
+.breadcrumb {
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+/* Start to put some typographic structure into new sections
+------------------------------------------------------------*/
+
+h1, h2, h3{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h2 {
+	font-size: 12px;
+	border-bottom: 1px solid #EFEFEF;
+	padding-bottom: 3px;
+}
+
+h3 {
+	font-size: 11px;
+	padding-left: 14px;
+	background: url(../images/common/grdot.gif) no-repeat 0px 7px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+/* Text styles
+-------------------------------------------------------------*/
+
+.tborder {
+	padding-top: 10px;
+	border-top: 1px solid #DFDCD7;
+}
+
+.left {
+	text-align: left} /* for IE centered alignment problem */
+	
+.center {
+	text-align: center;}
+
+/* Show-hide sections
+-------------------------------------------------------------*/
+
+.demo-show h2 {
+	/*margin: 0;
+	padding: 0.25em 0.25em 0.25em 25px;
+	background: #D2ECC6 url(../images/plus-minus.gif) no-repeat 2px 8px;
+	border-top: 1px solid #369B47;*/
+	padding: 0.4em 0.25em 0.25em 25px;
+	background: #00adf0 url(../images/show-header-bg.png) no-repeat left center;
+	cursor: pointer;
+	color: #FFF;
+	margin-bottom: 20px;
+	font: normal 12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.demo-show h2.active {
+	background: #00adf0 url(../images/show-header-bg.png) no-repeat -600px bottom;
+	margin-bottom: 20px;
+}
+
+.demo-show div {
+	padding-left: 30px;
+	margin-top: 0;
+}
+
+.demo-show div h3 {
+	margin-top: 0;
+	}
+
+/* Organic Tabs amended from Chris Coyier http://css-tricks.com
+--------------------------------------------------------------------------*/
+
+.js .hide { /*only hide if js class added to html tag, i.e. user has JavaScript ON*/
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+#example-one {
+	background: #EEE;
+	padding: 10px 0px;
+	margin: 20px 0;
+	text-align:left;
+}
+
+#example-one .nav {
+	overflow: hidden;
+	margin: 0 0 10px;
+	padding-left: 0;
+	border-bottom: 3px solid #0AA03C;
+}
+
+#example-one .nav li {
+	width: 97px;
+	float: left;
+	margin: 0 10px 0 0;
+	list-style: none;
+}
+
+#example-one .nav li.last {
+	margin-right: 0;
+}
+
+#example-one .nav li a {
+	display: block;
+	padding: 5px;
+	background: #0746a5 url(../images/header-bg-sprite.png) repeat-x 0px 0px;
+	color: white;
+	font-size: 100%;
+	text-align: center;
+	border: 0;
+	height: 6em;
+}
+
+#example-one .nav li a:hover {
+	background-color: #111;
+}
+
+.list-wrap {
+	padding: 15px 20px 30px;
+	background: #EEE;
+}
+
+#example-one p {
+	margin:0;
+	line-height: 1.5;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#example-one h3 {
+	border-top: 1px dotted #959290;
+	background: url(../images/common/grdot.gif) no-repeat 0px 17px;
+	padding-top: 10px;
+}
+
+#example-one .first {
+	border-top: none;
+}
+
+#example-one ul li.nav-one a.current, #example-one ul li.nav-two a.current, #example-one ul li.nav-three a.current, #example-one ul li.nav-four a.current, #example-one ul li.nav-five a.current, #example-one ul.nav li a:hover {
+	/*background-color: #0575f4;*/
+	background: #006b34 url(../images/header-bg-sprite.png) repeat-x 0px -200px;
+	color: #FFF;
+}
+
+/*#example-one ul li.nav-two a.current, #example-one ul.ecommerce li a:hover {
+	background-color: #d30000;
+	color: #FFF;
+}*/
+
+/*#example-one ul li.nav-three a.current, #example-one ul.wordpress li a:hover {
+	background-color: #8d01b0;
+	color: #FFF;
+}*/
+
+/*#example-one ul li.nav-four a.current, #example-one ul.featured li a:hover {
+	background-color: #FE4902;
+	color: #FFF;
+}*/
+
+/*#example-one ul li.nav-five a.current, #example-one ul.consultancy li a:hover {
+	color: #FFF;
+	background: #66C;
+}*/
+
+blockquote {
+	font-size: 12px;
+	font-style: italic;
+	border-left: 5px solid #CCC;
+	padding-left: 10px;
+}
+
+.highlight {
+	color: #cc0099;
+}
+
+.clear-right {
+	clear: right;
+}
+
+.latest {
+	margin-top: 40px;
+	}
